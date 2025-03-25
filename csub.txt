@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   int a,b,c;
+   clrscr();
+   printf("enter the value of a:");
+   scanf("&a",%d);
+   printf("enter the value of b:");
+   scanf("&b",%d);
+   c=a-b;
+   printf("the value of %d and %d is %d", a,b,c);
+   getch();
+};
+   
